@@ -1,0 +1,27 @@
+<view class='cm' wx:for="{{list}}" wx:key data-id='{{item.teid}}' bindtap='fbtn'>
+  <view class='cm-body flex'>
+    <view class="bxs radius cmb1">
+      <image src='../../images/1.jpg' class='cm-img'></image>
+    </view>
+    <view class="basis-lg  radius cmb2">
+      <view class='cm-n1'>
+      <image src='../../images/tabbar/tou.png' class='cm-n1-img'></image>
+      <text class='cm-n1-nei'>{{item.title}}</text>
+      <text class='cm-n1-nei'>{{item.de}}</text>
+      </view>
+        <view class='cm-n3'>
+            <view class="flex">
+              <view class="flex-sub  paddings margin-xs radius">
+                <image src='../../images/tabbar/shi1.png' class='cm-n3-img'></image>
+                <text class='cm-n3-nei'>地区:{{item.city}}</text>
+              </view>
+              <view class="flex-sub paddings margin-xs radius">
+               <image src='../../images/tabbar/shi.png' class='cm-n3-img'></image>
+                <text class='cm-n3-nei1'>{{item.age}}</text>
+              </view>
+
+            </view>
+        </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/addmessage/message.wxml-->
+<view><text style="  display: flex;align-items: center;justify-content: center;width: 500rpx;" >标题</text>
+<input placeholder="标题" bindinput="titleInput"></input>
+<text style="display: flex;align-items: center;justify-content: center;width: 500rpx;">内容</text>
+<textarea placeholder="详情" bindinput="desInput" ></textarea>
+<button bindtap="sub">发布</button>
+</view>

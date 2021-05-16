@@ -1,0 +1,47 @@
+<view class='u'>
+  <view class='tou'>
+    <view class='tou1 cu-avatar round' >
+      <image src='http://localhost:8080/imgs/{{user.img}}' class='ima'></image>
+    </view>
+    <view class='mi'>
+      <text >{{user.username}}</text>
+    </view>
+  </view>
+</view>
+
+
+
+<view class="cu-list menu card-menu margin-top">
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" url="../give/give?id=0">
+        <text class="cuIcon-footprint text-orange"></text>
+        <text class="text-grey">我发布的送养</text>
+      </navigator>
+    </view>
+   
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" url="../find/find?id={{user.id}}">
+        <text class="cuIcon-like text-orange"></text>
+        <text class="text-grey">我发布的助养</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" url="../give/give?id=1">
+        <text class="cuIcon-footprint text-orange"></text>
+        <text class="text-grey">我的收藏</text>
+      </navigator>
+    </view>
+</view>
+
+<view class="cu-list menu card-menu margin-top">
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" url="../userinfo/userinfo">
+        <text class="cuIcon-profile text-orange"></text>
+        <text class="text-grey">个人资料</text>
+      </navigator>
+    </view>
+    
+    
+</view>
+
+

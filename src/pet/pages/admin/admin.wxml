@@ -1,0 +1,4 @@
+<!--pages/admin/admin.wxml-->
+<button  bindtap="add">发布通知</button>
+<button>送养管理</button>
+<button>领养管理</button>
