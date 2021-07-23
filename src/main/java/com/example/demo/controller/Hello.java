@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 
+import com.example.demo.jwt.LoginToken;
 import com.example.demo.mapper.*;
 import com.example.demo.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,8 +73,7 @@ public class Hello {
         }
 
     }
-
-
+    @LoginToken
     @ResponseBody
     @RequestMapping("/updateuser")
     public User updateuser(User userEntity, HttpServletRequest request) {
